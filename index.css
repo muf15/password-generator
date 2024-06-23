@@ -18,7 +18,7 @@ body {
     background-size: cover;
     background-position: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: var(--silver); /* Set default font color */
+    color: var(--silver);
 }
 
 #about {
@@ -27,8 +27,8 @@ body {
     padding-bottom: 20px;
     border-bottom: 2px solid var(--prussian-blue);
     width: 80vw;
-    margin: 10px auto; 
-    padding: 20px; 
+    margin: 10px auto;
+    padding: 20px;
     margin-bottom: 20px;
 }
 
@@ -100,12 +100,13 @@ label {
     color: var(--mint);
     font-size: 1.2rem;
     width: 80vw;
-    margin: 10px auto; 
-    padding: 10px; 
+    margin: 10px auto;
+    padding: 10px;
     margin-bottom: 20px;
 }
 
-#pass-1-el, #pass-2-el {
+#pass-1-el,
+#pass-2-el {
     background-color: var(--prussian-blue);
     padding: 10px 20px;
     border-radius: 5px;
@@ -122,7 +123,8 @@ label {
     margin-right: 17vw;
 }
 
-#pass-1-el:hover, #pass-2-el:hover {
+#pass-1-el:hover,
+#pass-2-el:hover {
     background-color: var(--emerald);
     color: var(--gunmetal);
 }
