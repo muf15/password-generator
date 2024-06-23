@@ -49,7 +49,3 @@ function copyToClipboard(elementId) {
         console.error("Could not copy text: ", err);
     });
 }
-
-window.increment = increment
-window.save = save
-window.reset = reset
